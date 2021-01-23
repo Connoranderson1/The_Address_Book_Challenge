@@ -1,5 +1,10 @@
 // style time
 
+h1 {
+    color: black;
+    font-family: "Times New Roman";
+}
+
 body { 
     font-family: Arial, Helvetica, sans-serif;
     background-color: slategray;
@@ -12,7 +17,7 @@ button {
     margin-bottom: 10px;
     border: solid; 
     padding: 10px 10 px;
-    text-align: center;
+    text-align: left;
     display: inline-block;
 }
 
@@ -21,11 +26,21 @@ input[type="submit"] {
     background-color: blue;
     border: solid;
     padding: 10 px;
-    text-align: center;
+    text-align: left;
     display: inline-block;
 }
 
 input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 5 px solid rgb(0, 0, 0);
+    margin: 10 px,
+    display: inline-block;
+}
+
+input[type="notes"] {
+    text-align: left;
     width: 100%;
     box-sizing: border-box;
     border-radius: 6px;
