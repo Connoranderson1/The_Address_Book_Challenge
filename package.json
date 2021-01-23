@@ -16,4 +16,5 @@
     "start:hot": "node server.js",
     "cy:open": "yarn start & cypress open"
   }
+
 }
