@@ -1,0 +1,44 @@
+// style time
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategray;
+    border: 20px blue;
+    padding: 15 px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 10px;
+    border: solid; 
+    padding: 10px 10 px;
+    text-align: center;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    background-color: blue;
+    border: solid;
+    padding: 10 px;
+    text-align: center;
+    display: inline-block;
+}
+
+input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 5 px solid rgb(0, 0, 0);
+    margin: 10 px,
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 5 px solid rgb(0, 0, 0);
+    margin: 10 px,
+    padding: 12px 1px;
+    display: inline-block;
+}
